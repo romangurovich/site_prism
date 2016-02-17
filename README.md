@@ -1,3 +1,20 @@
+# SitePrism-Angular
+
+A version of Natrimeyer's excellent [SitePrism](https://github.com/natritmeyer/site_prism) modified slightly to work with Wrozka's [Capybara::Angular](https://github.com/wrozka/capybara-angular)
+
+### Installation
+
+Add the following lines to your application's Gemfile:
+
+```ruby
+gem 'capybara-angular'
+gem 'site_prism', :git => 'git://github.com/romangurovich/site_prism.git'
+```
+
+All credit for awesome testing tools goes to:
+- https://github.com/natritmeyer/site_prism
+- https://github.com/wrozka/capybara-angular
+
 # SitePrism
 _A Page Object Model DSL for Capybara_
 

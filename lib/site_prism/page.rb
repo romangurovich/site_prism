@@ -2,7 +2,7 @@ require 'site_prism/loadable'
 
 module SitePrism
   class Page
-    include Capybara::DSL
+    include Capybara::Angular::DSL
     include ElementChecker
     include Loadable
     extend ElementContainer

@@ -5,6 +5,7 @@ end
 
 require 'capybara'
 require 'capybara/dsl'
+require 'capybara/angular/dsl'
 require 'capybara/cucumber'
 require 'selenium-webdriver'
 
